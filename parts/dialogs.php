@@ -1,0 +1,1 @@
+<div class="dialogs" id="emptyDialog"></div>

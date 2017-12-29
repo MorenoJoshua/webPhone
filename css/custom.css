@@ -1,0 +1,289 @@
+#lineContainer .btn {
+    background: #eee;
+    border-radius: 14px;
+    box-shadow: 0 1px 0 1px rgb(166, 166, 166);
+    background: -webkit-linear-gradient(top, #afafaf 0%, #cccccc 47%, #ededed 100%);
+}
+
+#metaContainer {
+
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(17%, #e6e6e6), color-stop(100%, #777777)),
+    -webkit-linear-gradient(top, #e6e6e6 17%, #777777 99%);
+    border-radius: 12px;
+    padding: 5px 5px 0 5px;
+}
+
+* {
+    margin: 0 !important; 
+    padding: 0 !important;
+    border: 0 !important;
+    border-spacing: 0 !important;
+    font-family: Lucida Sans Unicode, sans-serif;
+}
+
+body {
+    overflow: hidden;
+    background: #FFFFFF;
+    padding: 9px !important;
+}
+
+body#line {
+    padding: 0 !important;
+}
+
+#lineContainer .col-xs-4 {
+    width: calc((100vw / 3) - 17px);
+    margin-right: 7px !important;
+}
+
+#lineContainer {
+    height: 0;
+    padding: 6px 0 0 10px !important;
+}
+
+#ext {
+    height: 75px;
+}
+
+button {
+    height: calc((100vh - 151px) / 5.5) !important;
+}
+
+#hupbtn {
+    box-shadow: inset -6px -6px 0 0 #871e1f;
+    border-radius: 0 0 12px 0;
+}
+
+#hold {
+    color: #fff;
+    background: #7e8a3c;
+    height: calc(((100vh - 151px) / 5.5) * 1.5) !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(17%, #7e8a3c), color-stop(99%, #b3b830)),
+    -webkit-linear-gradient(top, #7e8a3c 17%, #b3b830 99%);
+    border-radius: 0 0 0 12px;
+    box-shadow: inset 3px -3px 0 3px #7e8a3c;
+}
+
+.startxferbtn {
+    background: teal;
+}
+
+#timer {
+    text-align: right;
+}
+
+#main_info, #timer, #ext {
+    padding: 0 15px !important;
+}
+
+#main_info {
+    font-size: x-small;
+    color: rgba(119, 119, 119, 0.56);
+}
+
+#ext {
+    font-size: 20pt;
+    color: #909090;
+    font-weight: 100;
+    padding-bottom: 25px !important;
+}
+
+#callbtn, #ansbtn {
+    color: #fff;
+    background: #52b04f;
+    height: calc(((100vh - 151px) / 5.5) * 1.5) !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(17%, #3d8738), color-stop(99%, #47b72f)), -webkit-linear-gradient(top, #3d8738 17%, #47b72f 99%);
+    box-shadow: inset -3px -3px 0 3px #2E672B, inset 3px -3px 0 3px #2E672B;
+}
+
+#callbtn {
+    border-radius: 0 0 10px 10px;
+}
+
+#vmbtn {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(99%, #009fff), color-stop(17%, #005387));
+    box-shadow: inset 0 -6px 0 0 #002841;
+}
+
+#hupbtn, #declinebtn {
+    color: #fff;
+    background: #52b04f;
+    height: calc(((100vh - 151px) / 5.5) * 1.5) !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(17%, #874438), color-stop(99%, #b7342f));
+}
+
+.fnButtons * {
+    font-size: xx-large;
+    color: white;
+}
+
+#keypad button, #dialpad button {
+    width: calc((100vw - 18px) / 3) !important;
+    background: #fff;
+    border: 1px solid rgba(200, 200, 200, 0.3) !important;
+}
+
+#transfer1 {
+    height: calc(((100vh - 151px) / 5.5) * 0.75) !important;
+}
+
+#hold, #ansbtn, #declinebtn, #vmbtn {
+    height: calc(((100vh - 151px) / 5.5) * 1.5) !important;
+}
+
+#hupbtn, #transfer1, #hold, #ansbtn, #declinebtn, #vmbtn {
+    font-size: xx-large;
+    color: white;
+}
+
+.completexferbtn {
+    width: 50vw;
+}
+
+#screen * {
+    background: transparent;
+}
+
+#screen {
+    background: #EDEFED;
+    -webkit-box-shadow: inset 1px 1px 6px white;
+    -moz-box-shadow: inset 1px 1px 6px white;
+    box-shadow: inset 1px 1px 6px #bbb;
+    margin: 29px 7px 7px !important;
+    border-radius: 8px;
+}
+
+.lineIndicator {
+    display: inline;
+}
+
+.btn-primary {
+
+    background-color: #C5C5C5 !important;
+    border-color: #3d96dd;
+}
+
+.blink_fast {
+    -webkit-animation: blink_ring 1s linear infinite;
+    color: white;
+}
+
+.blink_slow {
+    -webkit-animation: blink_ring 3s linear infinite;
+    color: white;
+}
+
+.on_hold {
+    -webkit-animation: blink_hold 3s linear infinite;
+    color: white;
+}
+
+@-webkit-keyframes blink_ring {
+    0% {
+        background: #337ab7;
+    }
+    50% {
+        background: #3d8738;
+    }
+    100% {
+        background: #337ab7;
+    }
+}
+
+@-webkit-keyframes blink_ring {
+    0% {
+        background: #3d8738;
+    }
+    50% {
+        background: #005387;
+    }
+    100% {
+        background: #3d8738;
+    }
+}
+
+@-webkit-keyframes blink_hold {
+    0% {
+        background: #c6c003;
+    }
+    50% {
+        background: #871e1f;
+    }
+    100% {
+        background: #c6c003;
+    }
+}
+
+#callerIdName {
+    position: absolute;
+    top: 102px;
+    left: 31px;
+    z-index: 0;
+    font-size: 12pt;
+    color: rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+}
+
+#statusLight {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #47b72f;
+    top: 56px;
+    right: 31px;
+    z-index: 0;
+    font-size: 12pt;
+    color: rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+    border-radius: 100px;
+    box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.22);
+    background: -webkit-linear-gradient(top, #b4e391 0%, #61c419 50%, #b4e391 100%);
+    transition: 1s, width 2s;
+}
+
+#calltxt {
+    text-shadow: 1px 2px 0 rgba(0, 0, 0, 0.32);
+}
+
+#circle1 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: -webkit-linear-gradient(top, #ff3019 0%, #cf0404 100%);
+    border-radius: 100px;
+    top: 5px;
+    right: 6px;
+    z-index: 0;
+}
+
+#circle2 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: -webkit-linear-gradient(top, #ff3019 0%, #cf0404 100%);
+    border-radius: 100px;
+    top: 5px;
+    right: 6px;
+    z-index: 0;
+}
+
+#circle3 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: -webkit-linear-gradient(top, #ff3019 0%, #cf0404 100%);
+    border-radius: 100px;
+    top: 5px;
+    right: 6px;
+    z-index: 0;
+}
+
+#test {
+    position: absolute;
+    top: 10px;
+}
+
+#metaContainer {
+    height: 168px;
+}
+
